@@ -1,0 +1,186 @@
+html{
+   width: 1200px;
+   font-family: Calibri;
+   background-color: white;
+}
+
+.main{
+   margin: 0;
+   padding-left: 20px;
+}
+/* eStore head name with black background*/
+.main1 {
+   width: 1200px;
+   height: 100px;
+   background-color: black;
+   color: white;
+   padding-left: 30px;
+   box-sizing: border-box;
+}
+
+.name{
+   font-size: 48pt;
+   float: left;
+   padding-left: 20px;
+   
+}
+.link ul li{
+   float: left;
+   list-style: none;
+   font-size: 16pt;
+   padding: 30px 20px 30px 10px;
+}
+.link ul li a{
+   text-decoration: none;
+   color: white;
+   padding-left: 400px;
+}
+/*###############################################################*/
+/* second line head*/
+.second{
+   
+   width: 1200px;
+   height: 80px;
+   color: #333;
+}
+.second1 ul li{
+   list-style: none;
+   float: left;
+   font-size: 16pt;
+   padding:20px 20px 30px 10px;
+}/*
+input[type="text"] {
+   float: right;
+   padding: 6px;
+   margin-top: 8px;
+   margin-right: 16px;
+   border: 35px;
+   border-color: black;
+   width: 250px;
+   font-size: 17px;
+ }*/
+input[type="text"]{
+   width: 225px;
+   padding: 10px 10px 10px;
+   display: inline;
+   margin-top: 10px;
+   margin-left: 30px;
+   font-size: 12pt;
+   
+}
+/*##################################################################*/
+/* start of third head content*/
+.content{
+   width: 1200px;
+   height: 400px;
+   color: #333;
+   background-color: lightgray;
+   display: flex;
+}
+.img img{
+   padding-top: 100px;
+   flex: 1;
+}
+.head1{
+   padding-top: 70px;
+   padding-left: 0%;
+   flex: 1;
+   font-size: 58pt;
+   font-weight: normal;
+   text-transform: uppercase;
+   margin-right: 40px;
+}
+
+.body{
+   padding-top: 25px;
+   flex: 1;
+   font-size: 18pt;
+}
+/*###########################################################################*/
+/*fourth line head deals of the day*/
+.deals{
+   width: 1200px;
+}
+.deals1{
+   font-size: 30pt;
+   color: #333;
+   font-weight: normal;
+}
+.d{
+   font-size: 45pt;
+}
+.offer{
+   display: flex;
+   padding-left: 20px;
+   justify-content: space-between;
+}
+.offers{
+   text-align: center;
+}
+/*################################################################################*/
+/* Start of fashion categories*/
+.fashion{
+   max-width: 1200px;
+}
+.fashion1{
+   font-size: 30pt;
+   color: #333;
+   font-weight: normal;
+}
+.f{
+   font-size: 45pt;
+}
+
+.product {
+   display: flex;
+   padding-left: 20px;
+   justify-content: space-between;
+ }
+ .products{
+   color: #333333;
+   text-align: center;
+   padding: 10px;
+   margin-bottom: 30px;
+   background-color: #dbf3fa;
+   font-size: 20pt;
+ }
+ /*##################################################################################################################*/
+ /*Brand name*/
+ .brand{
+   font-size: 14pt;
+   color: #333;
+   padding-left: 20px;
+ }
+ /*###################################################################################################################*/
+footer{
+   background-color: #131a22;
+   color: white;
+   height: 500px;
+}
+.final{
+   padding-left: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.last h4{
+   margin-bottom: 0;
+   font-weight: normal;
+   text-transform: uppercase;
+   font-size: 18pt;
+}
+.last ul{
+   padding: 0;
+   margin: 0;
+}
+.last ul li{
+   padding-top: 5px;
+   padding-right: 20px;
+   list-style: none;
+   font-size: 16pt;
+   cursor: pointer;
+}
+
+
+
+
+
